@@ -73,7 +73,7 @@ a{
     border-radius: 20rem;
     display: flex;
 }
-.input_username{
+.input_nickname{
     border: none;
     background-color: #EFEFEF;
     background-repeat : no-repeat;
@@ -86,10 +86,10 @@ a{
     
 }
 
-.search_img{
+.search_button{
     border: none;
     border-radius: 20em;
 }
-.search_img>img{
+.search_button>img{
     width: 50%;
 }
