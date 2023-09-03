@@ -10,28 +10,31 @@
 <body>
     <div class="wrap">
 
-        <div id="background"></div>
-        <div id="back_opacity"> </div>
+        <div class="background"></div>
+        <div class="back_opacity"> </div>
 
-        <div id="ranking_menu">
-            <img class="ranking_button" src="../img/ranking.png" alt="랭킹이미지">
+        <div class="ranking_button">
+            <img class="ranking_img" src="../img/ranking.png" alt="랭킹이미지">
             <p>랭킹 보기</p>
         </div>
         
-        <aside class="rank_nav">
-
+        <aside class="ranking_menu">
+            <img class="close" src="../img/close.png" alt="">
+            <ul class="ranking_list">
+                <li><a href="#">통합 랭킹</a></li>
+                <li><a href="#">투신전 랭킹</a></li>
+                <li><a href="#">캐릭터 랭킹</a></li>
+            </ul>
         </aside>
 
-        <div id="search">
+        <div class="search_wrap">
             <div>
                 <a href="#"><img class="logo" src="../img/logo.png" alt=""></a>
                 <div class="search">
                     <input class="input_nickname" maxlength="8" placeholder="닉네임을 입력하시오" type="text">
-                    <button class="search_button"><img src="../img/search.png" alt=""></button>
+                    <button class="search_button"><a href="#"><img src="../img/search.png" alt=""></a></button>
                 </div>
             </div>
-            
-            
         </div>
     </div>
     
