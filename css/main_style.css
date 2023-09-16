@@ -76,13 +76,15 @@ ul{
 }
 
 .ranking_list>li{
-    padding: 10px 20px;
+    padding: 10px 20px 10px 20px;
 }
 .ranking_list>li:hover{
     background-color: #5a5a5a;
 }
 
-
+.logo{
+    padding: 30px 0px;
+}
 
 .search_wrap{
     display: flex;
@@ -99,9 +101,7 @@ ul{
     align-items: center;
 }
 
-.logo{
-    padding: 30px 0px;
-}
+
 
 .search{
     background-color: #EFEFEF;
@@ -125,6 +125,10 @@ ul{
     border: none;
     border-radius: 20em;
 }
-.search_button>a>img{
+
+.search_button:hover{
+    cursor: pointer;
+}
+.search_button>img{
     width: 50%;
 }
